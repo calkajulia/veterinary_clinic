@@ -1,0 +1,19 @@
+W bazie danych mają być przechowywane informacje o zwierzętach leczonych w klinice weterynaryjnej oraz o ich właścicielach.
+
+Dane dotyczące zwierząt:
+-	Dla każdego zwierzęcia należy przechowywać jego imię, gatunek, rasę, datę urodzenia, płeć, informacje o sterylizacji.
+-	Każde zwierzę ma przypisany numer identyfikacyjny i jest on unikalny w systemie.
+
+Dane dotyczące właścicieli zwierząt:
+-	Dla każdego właściciela należy przechowywać jego imię, nazwisko, adres zamieszkania,, numer telefonu, adres e-mail.
+-	Każdy właściciel ma przypisany numer identyfikacyjny i jest on unikalny w systemie.
+-	Każdy właściciel może mieć przypisanych wiele zwierząt, ale każde zwierzę ma jednego właściciela.
+
+Dane dotyczące wizyt i zabiegów:
+-	Każda wizyta weterynaryjna ma swój unikalny numer identyfikacyjny, datę i godzinę wizyty.
+-	Każdamy zabieg ma przypisany kod (unikalny), nazwę, opis, koszt.
+-	Dla każdego lekarza należy przechowywać imię, nazwisko, specjalizację. Każdy lekarz ma przypisany numer identyfikacyjny i jest on unikalny w systemie.
+-	System przechowuje informacje o dostępnych lekach. Dla każdego leku przechowuje jego nazwę, opis, dawkowanie, liczbę dostępnych opakowań, datę ważności.
+-	W danym dniu zwierzę może mieć zarejestrowaną jedną wizytę która może obejmować wiele procedur.
+-	Każda wizyta przypisana jest do jednego lekarza.
+-	Każda procedura może wymagać podania wielu leków.
